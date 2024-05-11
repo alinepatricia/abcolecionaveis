@@ -7,7 +7,7 @@ body {
     color: white;
     position: absolute;
     top: 1%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(10, 48, 21, 0.8);
     border-radius: 8px;
     width: 99%;
     height: 13%;
@@ -29,7 +29,7 @@ body {
     color: white;
     position: absolute;
     top: 95%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(10, 48, 21, 0.8);
     border-radius: 8px;
     width: 99%;
     height: 13%;
