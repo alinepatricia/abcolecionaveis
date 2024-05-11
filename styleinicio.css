@@ -1,9 +1,6 @@
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: linear-gradient(45deg, rgb(24, 116, 81), rgb(197, 241, 227));
-    margin: 0%;
-    padding:0%;
-    }
 }
 
 .navbar {
@@ -12,6 +9,8 @@ body {
     width: 100%;
     color:aliceblue;
     text-align: center;
+    margin: 0%;
+    padding: 0%;
 }
 
 .navbar ul li {
