@@ -7,11 +7,10 @@ body {
     color: white;
     position: absolute;
     top: 1%;
-
     background-color: rgba(0, 0, 0, 0.8);
     padding: 2px;
     border-radius: 5px;
-    width: 98%;
+    width: 99%;
 }
 
 .navbar ul li {
@@ -20,4 +19,4 @@ body {
 .navbar ul li a {
     display: block;
     color: #FFFFFF;
-    padding: 30px 10px;
+    padding: 20px 8px;
