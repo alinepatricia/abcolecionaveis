@@ -1,3 +1,33 @@
+<?php
+    if (isset($_POST['submit'])) {
+        //print_r('Nome: ' . $_POST['nome']);
+        //print_r('<br>');
+        //print_r('Email: ' . $_POST['email']);
+        //print_r('<br>');
+        //print_r('Telefone: ' . $_POST['telefone']);
+        //print_r('<br>');
+        //print_r('Data de nascimento: ' . $_POST['data_nascimento']);
+        //print_r('<br>');
+        //print_r('Pedido: ' . $_POST['pedido']);
+        //print_r('<br>');
+        //print_r('Valor: ' . $_POST['valor']);
+
+        include_once('config.php');
+
+        $nome = $_POST['nome'];
+        $email = $_POST['email'];
+        $telefone = $_POST['telefone'];
+        $data_nascimento = $_POST['data_nascimento'];
+        $pedido = $_POST['pedido'];
+        $valor = $_POST['valor'];
+
+        $include = mysqli_querry($conexao, "INSERT INTO usuarios(nome,email,telefone,data_nasc,pedido,valor) VALUES ($nome,$email,$telefone,$data_nascimento,$pedido,$valor)");
+
+    }
+?>
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +38,7 @@
 </head>
 <body>
     <div class="box">
-        <form action="formulario.php" method="post">
+        <form action="cadastro.php" method="post">
             <fieldset>
                 <legend><b>Cadastro de Clientes</b></legend>
                 <br>
@@ -37,12 +67,12 @@
                 <br>
                 <div class="inputBox">
                     <label for="pedido" class="labelInput">Pedido:</label>
-                    <textarea cols="35" rows="4" class="inputUser" > </textarea><br>
+                    <textarea cols="35" rows="4" id="pedido" class="inputUser" > </textarea><br>
                 </div>
                 <br><br>
                 <div class="inputBox">
                     <input type="text" name="valor" id="valor" class="inputUser" required>
-                    <label for="valor" class="labelInput">Pagamento Recebido</label>
+                    <label for="valor" id="valor" class="labelInput">Pagamento Recebido</label>
                 </div>
                 <br>
                 <input type="submit" name="submit" id="submit">
