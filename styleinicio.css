@@ -10,7 +10,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 5px;
     width: 99%;
-    height: 5%;
+    height: 6%;
     text-align: center;
 }
 
@@ -20,4 +20,6 @@ body {
 .navbar ul li a {
     display: block;
     color: #FFFFFF;
+    margin: auto;
+    padding: 0%;
 }
