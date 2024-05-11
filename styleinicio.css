@@ -11,4 +11,13 @@ body {
     width: 100%;
     border-radius: 15px;
     color:aliceblue;
+    text-align: center;
 }
+
+.navbar ul li {
+    display: inline-block;
+}
+.navbar ul li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 30px 10px;
