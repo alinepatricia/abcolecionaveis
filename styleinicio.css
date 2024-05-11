@@ -6,7 +6,7 @@ body {
 .navbar {
     color: white;
     position: absolute;
-    top: 0,5%;
+    top: 5%;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 5px;
     width: 99%;
