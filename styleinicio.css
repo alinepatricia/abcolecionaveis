@@ -10,7 +10,8 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 5px;
     width: 99%;
-    height: 30px;
+    height: 20%;
+    text-align: center;
 }
 
 .navbar ul li {
