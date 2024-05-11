@@ -6,7 +6,7 @@ body {
 .navbar {
     color: white;
     position: absolute;
-    top: 5%;
+    top: 1%;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 5px;
     width: 99%;
@@ -18,5 +18,5 @@ body {
 .navbar ul li a {
     display: block;
     color: #FFFFFF;
-    padding: 10px 3px;
+    padding: 5px;
 }
