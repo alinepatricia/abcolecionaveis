@@ -4,13 +4,16 @@ body {
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
     position: absolute;
-    width: 100%;
-    color:aliceblue;
-    text-align: center;
-    margin: 100%;
-    padding: 20%;
+    top: 1%;
+    left: 2%;
+    transform: translate(-2%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 60px;
+    border-radius: 35px;
+    width: 30%;
+}
 }
 
 .navbar ul li {
