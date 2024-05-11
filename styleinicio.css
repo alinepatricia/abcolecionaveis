@@ -37,7 +37,7 @@ body {
 }
 
 .footer ul li {
-    display: inline-block;
+    display:block;
     padding: 1px 40px;
 }
 .footer ul li a {
