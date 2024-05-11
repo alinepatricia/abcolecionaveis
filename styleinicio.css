@@ -8,7 +8,7 @@ body {
     position: absolute;
     top: 1%;
     background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 5px;
+    border-radius: 8px;
     width: 99%;
     height: 13%;
     text-align: center;
@@ -23,4 +23,15 @@ body {
     color: #FFFFFF;
     margin: 1%;
 
+}
+
+.footer {
+    color: white;
+    position: absolute;
+    top: 95%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    width: 99%;
+    height: 13%;
+    text-align: center;
 }
