@@ -47,7 +47,6 @@ body {
 .footer p {
     max-width: 500px;
     margin: 10px auto;
-    line-height: 28px;
-    font-size: 5px;
+    font-size: 15px;
     color: #cacdd2;
 }
