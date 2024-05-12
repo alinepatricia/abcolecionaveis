@@ -27,6 +27,7 @@ body {
 
 .banner {
     align-items: center;
+    height: auto;
 }
 
 .footer {
