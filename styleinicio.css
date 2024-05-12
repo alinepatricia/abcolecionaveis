@@ -31,9 +31,7 @@ body {
     left: 0;
     right: 0;
     background: #111;
-    height: auto;
     width: 100%;
-    padding-top: 5px;
     background-color: rgba(10, 48, 21, 0.8);
 }
 
@@ -47,7 +45,7 @@ body {
 
 .footer-content h3{
     font-size: 2.1rem;
-    font-weight: 500;
+    font-weight: 300;
 
 }
 
