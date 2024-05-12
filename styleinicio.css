@@ -25,6 +25,12 @@ body {
 
 }
 
+.banner {
+    text-align: center;
+    width: 70%;
+    height: auto;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
