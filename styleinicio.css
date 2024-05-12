@@ -33,7 +33,7 @@ body {
     background: #111;
     height: auto;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 5px;
     background-color: rgba(10, 48, 21, 0.8);
 }
 
@@ -54,7 +54,7 @@ body {
 .footer-content p{
     max-width: 500px;
     margin: 10px auto;
-    line-height: 28px;
+    line-height: 18px;
     font-size: 14px;
     color: #cacdd2;
 }
