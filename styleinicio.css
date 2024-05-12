@@ -27,7 +27,7 @@ body {
 
 .banner {
     align-items: center;
-    height: auto;
+    width: 100%;;
 }
 
 .footer {
