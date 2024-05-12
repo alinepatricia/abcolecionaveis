@@ -30,9 +30,14 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    background: #111;
+    height: auto;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 40px;
     background-color: rgba(10, 48, 21, 0.8);
+}
+
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,17 +45,17 @@ body {
     text-align: center;
 }
 
-.footer h3{
+.footer-content h3{
     font-size: 2.1rem;
     font-weight: 500;
     text-transform: capitalize;
     line-height: 3rem;
 }
 
-.footer p {
+.footer-content p{
     max-width: 500px;
     margin: 10px auto;
-    line-height: 10px;
+    line-height: 28px;
     font-size: 14px;
     color: #cacdd2;
 }
