@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleinicio.css" media="screen" />
+    <link rel="manifest" href="/manifest.json">
+    <title>AB</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="produtos.php">PRODUTOS</a></li>
+                <li><a href="encontrar.php">ONDE ENCONTRAR</a></li>
+                <li><a href="contato.php">CONTATO</a></li>
+                <li><a href="login.html">ÁREA DO LOJISTA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="banner">
+            <img src="banner.png">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3 class="fname"><strong>A&B COLECIONÁVEIS</strong></h3>
+            <p>Onde cada prateleira é um tesouro de histórias...<br><br>
+            e cada objeto é um elo precioso com o passado!</p><br>
+            <p>Onde cada item conta uma história única...<br><br>
+            e cada visita é uma jornada emocionante através do tempo e da memória!</p>
+        </div>
+    </footer>
+</body>
+</html>
