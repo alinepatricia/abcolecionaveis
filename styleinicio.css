@@ -33,7 +33,7 @@ body {
     background: #111;
     height: auto;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 10px;
     background-color: rgba(10, 48, 21, 0.8);
 }
 
@@ -48,8 +48,7 @@ body {
 .footer-content h3{
     font-size: 2.1rem;
     font-weight: 500;
-    text-transform: capitalize;
-    line-height: 1%;
+
 }
 
 .footer-content p{
