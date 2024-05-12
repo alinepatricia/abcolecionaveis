@@ -26,7 +26,7 @@ body {
 }
 
 .banner {
-    text-align: center;
+    align-items: center;
 }
 
 .footer {
