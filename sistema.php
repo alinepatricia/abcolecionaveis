@@ -56,6 +56,7 @@
         </div>
         <div class="d-flex">
             <a href="sair.php" class="btn btn-danger me-5">Sair</a>
+            <a href="cadastro.php"  class="btn btn-danger me-5">Cadastre</a>
         </div>
     </nav>
     <br>
@@ -97,11 +98,9 @@
                         echo "<td>".$user_data['senha']."</td>";
                         echo "<td>".$user_data['email']."</td>";
                         echo "<td>".$user_data['telefone']."</td>";
-                        echo "<td>".$user_data['sexo']."</td>";
                         echo "<td>".$user_data['data_nasc']."</td>";
-                        echo "<td>".$user_data['cidade']."</td>";
-                        echo "<td>".$user_data['estado']."</td>";
-                        echo "<td>".$user_data['endereco']."</td>";
+                        echo "<td>".$user_data['pedido']."</td>";
+                        echo "<td>".$user_data['valor']."</td>";
                         echo "<td>
                         <a class='btn btn-sm btn-primary' href='edit.php?id=$user_data[id]' title='Editar'>
                             <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-pencil' viewBox='0 0 16 16'>

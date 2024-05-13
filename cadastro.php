@@ -15,13 +15,14 @@
         include_once('config.php');
 
         $nome = $_POST['nome'];
+        $senha = $_POST['senha'];
         $email = $_POST['email'];
         $telefone = $_POST['telefone'];
         $data_nascimento = $_POST['data_nascimento'];
         $pedido = $_POST['pedido'];
         $valor = $_POST['valor'];
 
-        $include = mysqli_querry($conexao, "INSERT INTO usuarios(nome,email,telefone,data_nasc,pedido,valor) VALUES ($nome,$email,$telefone,$data_nascimento,$pedido,$valor)");
+        $include = mysqli_querry($conexao, "INSERT INTO usuarios(nome,senha,email,telefone,data_nasc,pedido,valor) VALUES ($nome,$email,$telefone,$data_nascimento,$pedido,$valor)");
 
     }
 ?>
@@ -45,6 +46,11 @@
                 <div class="inputBox">
                     <input type="text" name="nome" id="nome" class="inputUser" required>
                     <label for="nome" class="labelInput">Nome Completo</label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                    <label for="senha" class="labelInput">Senha</label>
                 </div>
                 <br>
                 <div class="inputBox">
