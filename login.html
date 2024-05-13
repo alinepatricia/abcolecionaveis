@@ -10,11 +10,13 @@
 <body>
     <div>
         <h1>Login</h1>
-        <input type="text" placeholder="NOME">
-        <br><br>
-        <input type="password" placeholder="SENHA">
-        <br><br>
-        <button>ENVIAR</button>
+        <form action="testlogin.php" method="post">
+            <input type="text" name="email" placeholder="Email">
+            <br><br>
+            <input type="password" name="senha" placeholder="SENHA">
+            <br><br>
+            <input class="button" type="submit" name="submit" value="ENVIAR">
+        </form>
     </div>
 </body>
 </html>
